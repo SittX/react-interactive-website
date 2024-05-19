@@ -1,0 +1,42 @@
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--footer-bg-color);
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__info-early-access {
+  padding: 1.5rem;
+}
+
+.footer__info-early-access button {
+  padding: 1rem;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.footer__links-container-logo {
+  display: flex;
+  flex-direction: column;
+  width: 168px;
+  height: 85px;
+}
+
+.footer__links-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.footer__container-copyright {
+  margin-top: 2rem;
+}

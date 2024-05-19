@@ -1,0 +1,39 @@
+.cta__container {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  border-radius: 10px;
+}
+
+.cta_information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.cta_container p:nth-child(1) {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+
+.cta_information p:nth-child(2) {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 45px;
+  text-align: left;
+}
+
+.cta_get-start button {
+  width: 189.14px;
+  height: 59.4px;
+  border-radius: 40px;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  background-color: #000000;
+  color: #fff;
+}
